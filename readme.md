@@ -33,7 +33,8 @@ nudge -> influences frequency and type of interactions
 
 interaction has a risk dependent on ->
 * density
-* proximity events
+* ventilation
+* close passes
 * number of people
 * pre-test
 * mask-wear -> which is influenced by peer pressure
