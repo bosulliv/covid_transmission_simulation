@@ -5,14 +5,12 @@
 The intent of this repo is to build a naive simulation of covid transmission
 by specifically modelling nudge and peer pressure. Where nudges are direct
 urgent messages from the government and/or the media. And peer pressure
-specifically changes the likelihood of the desire to wear a mask in certain
-situations.
+specifically stops you wearing a mask, because nobody else is in that space.
 
 This modelling will be hopelessly biased - I am just going to model my
 interactions. So I do not expect this to roll-up into a UK predictive model. The
 intent is to see what it takes to produce a model that converges: My hunch is
-that this is very hard, and as you add variables it will tend to diverge
-strongly. 
+that this is very hard, and as you add variables it will diverge strongly.
 
 Why? Because it is now the only way to understand the dynamics of infection.
 When the pandemic started and we were all vulnerable - it was scarily easy to
@@ -36,7 +34,7 @@ interaction has a risk dependent on ->
 * ventilation
 * close passes
 * number of people
-* pre-test
+* agreement to LFT beforehand
 * mask-wear -> which is influenced by peer pressure
 
 I can then make all of these variables random variables with different
