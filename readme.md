@@ -19,7 +19,7 @@ When the pandemic started and we were all vulnerable - it was scarily easy to
 model with a simple Gamma function. But in year two, we are no longer as
 vulnerable, and we change our behaviour based on our perception of risk.
 
-## Key Ideas
+## Concepts
 
 The model will be made up of interactions. Interactions are events with other
 people. The number and type of interactions are governed by risk, which can be
@@ -32,14 +32,24 @@ individuals.
 nudge -> influences frequency and type of interactions
 
 interaction has a risk dependent on ->
-density
-proximity events
-number of people
-pre-test
-mask-wear
-peer pressure
+* density
+* proximity events
+* number of people
+* pre-test
+* mask-wear -> which is influenced by peer pressure
 
 I can then make all of these variables random variables with different
 probability distributions. And then I can experiment with the values that make
 the greatest impact on transmission.
 
+## Machine Learning Opportunities
+
+If the model converges the obvious next step is find external features for the
+variables and perform regression.
+
+For instance, how urgent are newspaper headlines? How much are the cases
+increasing? These must then have a lagged impact on infections. Today's missed
+event, is next weeks avoided infection case.
+
+Some features I'll have to set statically - such as the reduction in
+transmission using face masks.
